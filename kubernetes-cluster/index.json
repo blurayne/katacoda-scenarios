@@ -1,5 +1,5 @@
 {
-  "title": "Kubernetes Playground",
+  "title": "Kubernetes-Cluster Playground",
   "description": "Playground",
   "environment": {
     "uilayout": "terminal"
@@ -9,6 +9,6 @@
     "text": "step1.md"
   }],
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "kubernetes-cluster"
   }
 }
