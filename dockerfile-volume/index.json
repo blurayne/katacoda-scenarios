@@ -1,6 +1,6 @@
 {
-  "title": "Docker Volumes",
-  "description": "Basic usage of Docker Volumes",
+  "title": "Dockerfile: VOLUME",
+  "description": "Basic usage of Docker VOLUME",
   "details": {
     "assets": {
       "client": [
@@ -12,16 +12,8 @@
     },
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Dockerfile: VOLUME",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
       }
     ],
     "intro": {

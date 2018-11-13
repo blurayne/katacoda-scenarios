@@ -1,6 +1,6 @@
-## Dockerfile
+## Build image
 
-We have setup a Dockerfile.
+We have setup a Dockerfile:
 
 ```
 FROM alpine
@@ -9,23 +9,26 @@ VOLUME /config
 RUN touch /config/bar.yml
 ```
 
-
-## Build the image
-
 ```docker build -t myimage . ```{{execute}}
 
-## Create a volume ```my-app-config```
+## Create a volume
 
 This volume will hold our application config.
 
 `docker volume create my-app-config`{{execute}}
 
 
-## Run container with volume and view 
+## List files in container
+
+We instance a new container, mount the volume to and and have a look what is inside ```/config```-directory:
 
 ```
 docker run -it --rm -v my-app-config:/config myimage sh -c "ls /config"
 ```{{execute}}
 
-*…and it has already content!*
-*…but no ```bar.yml``` present!*
+## Findings
+
+* Volume is already populated with content!
+* Volume does not have ```bar.yml``` included!
+
+NOTE: Everything after the first usage of VOLUME will be stripped from the image.
