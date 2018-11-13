@@ -1,0 +1,10 @@
+{
+  "title": "Kubernetes Playground",
+  "description": "Playground",
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  }
+}
