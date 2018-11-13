@@ -9,10 +9,6 @@ VOLUME /config
 RUN touch /config/bar.yml
 ```
 
-- creates ```/config/foo.yml```
-- ```VOLUME``` command
-- tries to add another config ```/config/bar.yml``` 
-
 
 ## Build the image
 
@@ -29,7 +25,6 @@ This volume will hold our application config.
 
 ```
 docker run -it --rm -v my-app-config:/config myimage sh -c "ls /config"
-settings.yml
 ```{{execute}}
 
 *…and it has already content!*
