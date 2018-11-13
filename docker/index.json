@@ -1,8 +1,8 @@
 {
-  "title": "Kubernetes Playground",
+  "title": "Docker Swarm Playground",
   "description": "Playground",
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal-terminal"
   },
   "steps": [{
     "title": "Feel for to play around!",
