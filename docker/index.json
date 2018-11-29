@@ -2,8 +2,6 @@
   "title": "Docker Playground",
   "description": "Playground",
   "icon": "fa-node",
-  "title": "Scenario with Editor UI",
-  "description": "Katacoda Scenario Example",
   "authenticated": false,
   "intro": {
     "courseData": "env-init.sh"
@@ -25,5 +23,8 @@
         "target": "~/"
       }
     ]
+  },
+  "backend": {
+      "imageid": "docker"
   }
 }
