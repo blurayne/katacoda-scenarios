@@ -5,7 +5,7 @@
   "icon": "fa-docker",
   "details": {
     "intro": {
-      
+      "courseData": "env-init.sh"
     },
     "assets": {
       "client": [{
@@ -20,7 +20,6 @@
     "steps": [{
       "title": "Feel for to play around!",
       "text": "step1.md",
-      "courseData": "env-init.sh",
       "code": "step1-init.sh"
     }]
   },
