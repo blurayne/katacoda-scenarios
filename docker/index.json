@@ -8,12 +8,14 @@
       
     },
     "assets": {
-      "host01": [
-        {
+      "host01": [{
           "file": "examples.tar.gz",
           "target": "~/"
-        }
-      ]
+      }, {
+        "file": "*",
+        "target": "/root",
+        "chmod": "+x" 
+      }]
     },
     "steps": [{
       "title": "Feel for to play around!",
