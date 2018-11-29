@@ -1,15 +1,29 @@
 {
-  "title": "Docker Swarm Playground",
+  "title": "Docker Playground",
   "description": "Playground",
-  "environment": {
-    "uilayout": "terminal-terminal"
+  "icon": "fa-node",
+  "title": "Scenario with Editor UI",
+  "description": "Katacoda Scenario Example",
+  "authenticated": false,
+  "intro": {
+    "courseData": "env-init.sh"
   },
   "steps": [{
     "title": "Feel for to play around!",
-    "text": "step1.md",
-    "courseData": "env-setup.sh"
+    "text": "step1.md"
   }],
-  "backend": {
-    "imageid": "docker"
+  "environment": {
+    "hideintro": true,
+    "hidefinish": true,
+    "uilayout": "editor-terminal-split",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "examples.tar.gz",
+        "target": "~/"
+      }
+    ]
   }
 }
