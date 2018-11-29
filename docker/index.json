@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 1",
+  "title": "Docker Playground 2",
   "description": "Playground",
   "authenticated": false,
   "icon": "fa-docker",
@@ -9,12 +9,8 @@
     },
     "assets": {
       "client": [{
-          "file": "examples.tar.gz",
+          "file": "*",
           "target": "~/"
-      }, {
-        "file": "*",
-        "target": "/root",
-        "chmod": "+x" 
       }]
     },
     "steps": [{
