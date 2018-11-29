@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 2",
+  "title": "Docker Playground 3",
   "description": "Playground",
   "authenticated": false,
   "icon": "fa-docker",
@@ -11,6 +11,10 @@
       "client": [{
           "file": "*",
           "target": "~/"
+      }],
+      "host": [{
+        "file": "*",
+        "target": "~/"
       }]
     },
     "steps": [{
