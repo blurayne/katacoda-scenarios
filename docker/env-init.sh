@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-echo foo > bar
+echo foo >> bar
