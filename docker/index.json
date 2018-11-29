@@ -10,8 +10,8 @@
     "assets": {
       "client": [
         {
-          "file": "examples.tar.gz",
-          "target": "~/"
+          "file": "assets/examples.tar.gz",
+          "target": "/home/scrapbook/tutorial/"
         }
       ]
     },
