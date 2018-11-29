@@ -1,16 +1,11 @@
 {
   "title": "Docker Playground",
   "description": "Playground",
-  "icon": "fa-node",
   "authenticated": false,
   "details": {
     "intro": {
       "courseData": "env-init.sh"
     },
-    "steps": [{
-      "title": "Feel for to play around!",
-      "text": "step1.md"
-    }],
     "assets": {
       "client": [
         {
@@ -18,7 +13,11 @@
           "target": "~/"
         }
       ]
-    }
+    },
+    "steps": [{
+      "title": "Feel for to play around!",
+      "text": "step1.md"
+    }]
   },
   "environment": {
     "hideintro": true,
