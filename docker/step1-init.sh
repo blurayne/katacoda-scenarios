@@ -1,1 +1,1 @@
-echo "step1"
+docker ps -a

@@ -1,1 +1,2 @@
-echo foo >> /home/scrapbook/tutorial/foo
+touch Makefile
+touch docker-compose.yml
