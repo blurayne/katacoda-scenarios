@@ -32,7 +32,7 @@
     "dashboard":"Dashboard",
     "showdashboard": false,
     "dashboards": [{"name": ":80", "port": 80}, {"name": ":8080", "port": 8080}],
-    "hideintro": true,
+    "hideintro": false,
     "hidefinish": true,
     "uilayout": "editor-terminal",
     "uisettings": "yaml",
