@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 9",
+  "title": "Docker Playground 10",
   "description": "Playground",
   "icon": "fa-docker",
   "difficulty": "beginner",
@@ -27,6 +27,7 @@
     }]
   },
   "environment": {
+    "dashboard":"Dashboard",
     "showdashboard": false,
     "hideintro": true,
     "hidefinish": true,
