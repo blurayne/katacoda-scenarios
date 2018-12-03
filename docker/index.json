@@ -14,7 +14,7 @@
     }],
     "assets": {
       "client": [{
-        "file": "init.sh",
+        "file": "env-init.sh",
         "target": "/home/scrapbook/"
       }, {
         "file": "Makefile",
