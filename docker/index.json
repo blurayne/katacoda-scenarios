@@ -28,11 +28,10 @@
       }]
     }
   },
-  "files": ["Dockerfile"],
   "environment": {
     "dashboard":"Dashboard",
     "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
+    "dashboards": [{"name": ":80", "port": 80}, {"name": ":8080", "port": 8080}],
     "hideintro": false,
     "hidefinish": true,
     "uilayout": "editor-terminal",
