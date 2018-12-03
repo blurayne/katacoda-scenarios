@@ -10,7 +10,7 @@
     "steps": [{
       "title": "Feel for to play around!",
       "text": "step1.md",
-      "code": "env-init.sh"
+      "courseData": "env-init.sh"
     }],
     "assets": {
       "client": [{
