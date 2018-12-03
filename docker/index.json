@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 12",
+  "title": "Docker Playground 13",
   "description": "Playground",
   "icon": "fa-docker",
   "difficulty": "beginner",
@@ -21,10 +21,13 @@
       "credits": ""
     },
     "assets": {
-      "client": [{
+      "host01": [{
           "file": "examples.tar.gz",
           "target": "/home/scrapbook/"
-      }]
+      }, {
+        "file": "foo",
+        "target": "~/"
+    }]
     }
   },
   "environment": {
@@ -32,7 +35,7 @@
     "showdashboard": false,
     "hideintro": false,
     "hidefinish": true,
-    "uilayout": "terminal-terminal",
+    "uilayout": "terminal",
     "uisettings": "yaml",
     "uimessage1": "Nothing"
   },
