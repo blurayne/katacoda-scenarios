@@ -1,1 +1,2 @@
-exec bash && clear
+exec bash
+clear
