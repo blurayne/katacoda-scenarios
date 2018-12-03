@@ -9,4 +9,6 @@ echo "export EDITOR=$HOME/.bin/=micro" >> ~/.bashrc
 wait 
 export PS1='\[\033[0;32;40m\]\H$\e[0m '
 cd $_PWD
-exec bash -i
+clear
+bash --version
+bash -i
