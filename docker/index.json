@@ -4,7 +4,8 @@
   "icon": "fa-docker",
   "details": {
     "intro": {
-      "courseData": "env-init.sh"
+      "courseData": "env-init.sh",
+      "code": "step1-init.sh"
     },
     "assets": {
       "client": [{
@@ -24,12 +25,11 @@
     }]
   },
   "environment": {
-    "hideintro": false,
+    "hideintro": true,
     "hidefinish": true,
-    "uilayout": "editor-terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+    "uilayout": "editor-terminal"
   },
    "backend": {
-      "imageid": "docker"
+      "imageid": "kubernetes"
   }
 }
