@@ -1,2 +1,1 @@
-exec bash
-clear
+env-init.sh
