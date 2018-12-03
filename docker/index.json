@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 5",
+  "title": "Docker Playground 6",
   "description": "Playground",
   "authenticated": false,
   "icon": "fa-docker",
@@ -12,7 +12,7 @@
           "file": "*",
           "target": "~/"
       }],
-      "host": [{
+      "host01": [{
         "file": "*",
         "target": "~/"
       }]
@@ -25,7 +25,7 @@
     }]
   },
   "environment": {
-    "hideintro": true,
+    "hideintro": false,
     "hidefinish": true,
     "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
