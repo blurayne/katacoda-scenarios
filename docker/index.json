@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 7",
+  "title": "Docker Playground 8",
   "description": "Playground",
   "authenticated": false,
   "icon": "fa-docker",
@@ -10,11 +10,11 @@
     "assets": {
       "client": [{
           "file": "*",
-          "target": "~/"
+          "target": "/home/scrapbook/tutorial/"
       }],
       "host01": [{
         "file": "*",
-        "target": "~/"
+        "target": "/home/scrapbook/tutorial/"
       }]
     },
     "steps": [{
@@ -25,7 +25,7 @@
     }]
   },
   "environment": {
-    "hideintro": false,
+    "hideintro": true,
     "hidefinish": true,
     "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
