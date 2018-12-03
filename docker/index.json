@@ -1,27 +1,19 @@
 {
-  "title": "Docker Playground 14",
+  "title": "Docker Playground 15",
   "description": "Playground",
   "icon": "fa-docker",
   "difficulty": "beginner",
   "details": {
+    "intro": {
+      "courseData": "env-init.sh"
+    },
     "steps": [{
       "title": "Feel for to play around!",
       "text": "step1.md",
-      "code": "step1-init.sh",
-      "courseData": "env-init.sh"
-    }],
-    "intro": {
-      "text": "intro.md",
-      "credits": "",
-      "courseData": "env-init.sh",
       "code": "step1-init.sh"
-    },
-    "finish": {
-      "text": "finish.md",
-      "credits": ""
-    },
+    }],
     "assets": {
-      "host01": [{
+      "client": [{
           "file": "examples.tar.gz",
           "target": "/home/scrapbook/"
       }, {
