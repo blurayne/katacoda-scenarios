@@ -28,6 +28,7 @@
       }]
     }
   },
+  "files": ["Dockerfile"],
   "environment": {
     "dashboard":"Dashboard",
     "showdashboard": true,
