@@ -1,37 +1,40 @@
 {
-  "title": "Docker Playground 11",
+  "title": "Docker Playground 12",
   "description": "Playground",
   "icon": "fa-docker",
   "difficulty": "beginner",
   "details": {
-    "intro": {
-      "courseData": "env-init.sh",
-      "credits": "",
-      "code": "step1-init.sh"
-    },
-    "assets": {
-      "client": [{
-          "file": "examples.tar.gz",
-          "target": "/home/scrapbook/"
-      }],
-      "host01": [{
-        "file": "examples.tar.gz",
-        "target": "/home/scrapbook/"
-      }]
-    },
     "steps": [{
       "title": "Feel for to play around!",
       "text": "step1.md",
       "code": "step1-init.sh",
       "courseData": "env-init.sh"
-    }]
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "env-init.sh",
+      "code": "step1-init.sh"
+    },
+    "finish": {
+      "text": "finish.md",
+      "credits": ""
+    },
+    "assets": {
+      "client": [{
+          "file": "examples.tar.gz",
+          "target": "/home/scrapbook/"
+      }]
+    }
   },
   "environment": {
     "dashboard":"Dashboard",
     "showdashboard": false,
     "hideintro": false,
     "hidefinish": true,
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal-terminal",
+    "uisettings": "yaml",
+    "uimessage1": "Nothing"
   },
    "backend": {
       "imageid": "docker-node"
