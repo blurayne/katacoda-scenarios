@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 16",
+  "title": "Docker Playground 17",
   "description": "Playground",
   "icon": "fa-docker",
   "difficulty": "beginner",
@@ -13,7 +13,7 @@
       "code": "step1-init.sh"
     }],
     "assets": {
-      "host01": [{
+      "client": [{
           "file": "examples.tar.gz",
           "target": "/home/scrapbook/"
       }, {
@@ -22,10 +22,15 @@
     }]
     }
   },
+  "files": [
+    "Makefile",
+    "docker-compose.yml"
+  ],
   "environment": {
     "dashboard":"Dashboard",
     "showdashboard": false,
-    "hideintro": true,
+    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
+    "hideintro": false,
     "hidefinish": true,
     "uilayout": "terminal",
     "uisettings": "yaml",
