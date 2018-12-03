@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 15",
+  "title": "Docker Playground 16",
   "description": "Playground",
   "icon": "fa-docker",
   "difficulty": "beginner",
@@ -13,7 +13,7 @@
       "code": "step1-init.sh"
     }],
     "assets": {
-      "client": [{
+      "host01": [{
           "file": "examples.tar.gz",
           "target": "/home/scrapbook/"
       }, {
