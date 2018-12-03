@@ -26,11 +26,6 @@
       }]
     }
   },
-  "files": [
-    "Makefile",
-    "Dockerfile",
-    "docker-compose.yml"
-  ],
   "environment": {
     "dashboard":"Dashboard",
     "showdashboard": true,

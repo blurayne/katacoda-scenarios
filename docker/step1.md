@@ -6,4 +6,6 @@ Use ```micro```{{execute}} to edit files.
 
 Use ```cd /home/scrapbook```{{execute}} to find other scenarios.
 
+Use ```make```{{execute}} followed by ```<tab>``` to build targets.
+
 
