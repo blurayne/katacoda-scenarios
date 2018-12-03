@@ -14,9 +14,11 @@ Use ```make```{{execute}} followed by ```<tab>``` to call targets.
 
 ## Swarm
 
-Use `docker swarm init`{{execute HOST1}} to init swarm
+ Init Swarm: `docker swarm init`{{execute HOST1}}
+ 
+ Join Swarm: `token=$(docker -H [[KATACODA_HOST]]:2345 swarm join-token -q worker) && docker swarm join [[KATACODA_HOST]]:2377 --token $token`{{execute HOST2}} 
 
-Use `token=$(docker -H 172.17.0.43:2345 swarm join-token -q worker) && docker swarm join 172.17.0.43:2377 --token $token`{{execute HOST2}} to join swarm
+[Access port 8080](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/)
 
 
 ## Note
