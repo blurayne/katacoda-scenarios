@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 13",
+  "title": "Docker Playground 14",
   "description": "Playground",
   "icon": "fa-docker",
   "difficulty": "beginner",
@@ -33,7 +33,7 @@
   "environment": {
     "dashboard":"Dashboard",
     "showdashboard": false,
-    "hideintro": false,
+    "hideintro": true,
     "hidefinish": true,
     "uilayout": "terminal",
     "uisettings": "yaml",
