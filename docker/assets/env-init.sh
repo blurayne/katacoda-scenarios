@@ -7,8 +7,9 @@ echo -n "Preparing environment..."
 ( cd $HOME/.bin && curl https://getmic.ro | bash  ) 1>/dev/null  2>&1  &
 echo "export EDITOR=$HOME/.bin/=micro" >> ~/.bashrc
 wait 
-export PS1='\[\033[0;32;40m\]\H$\e[0m '
+echo 'export PS1="\[\033[0;32;40m\]\H\$\e[0m "' >> ~/.bashrc
 cd $_PWD
 clear
 bash --version
+echo
 bash -i
