@@ -29,7 +29,7 @@
   "environment": {
     "dashboard":"Dashboard",
     "showdashboard": false,
-    "hideintro": true,
+    "hideintro": false,
     "hidefinish": true,
     "uilayout": "editor-terminal"
   },
