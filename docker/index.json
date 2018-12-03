@@ -6,7 +6,7 @@
   "details": {
     "intro": {
       "text": "intro.md",
-      "codeBase": "env-init.sh"
+      "courseData": "env-init.sh"
     },
     "steps": [{
       "title": "Feel for to play around!",
