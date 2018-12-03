@@ -30,9 +30,9 @@
   },
   "environment": {
     "dashboard":"Dashboard",
-    "showdashboard": true,
+    "showdashboard": false,
     "dashboards": [{"name": ":80", "port": 80}, {"name": ":8080", "port": 8080}],
-    "hideintro": false,
+    "hideintro": true,
     "hidefinish": true,
     "uilayout": "editor-terminal",
     "uisettings": "yaml",
