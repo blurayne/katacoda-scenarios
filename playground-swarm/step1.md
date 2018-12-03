@@ -18,6 +18,8 @@ Use ```make```{{execute}} followed by ```<tab>``` to call targets.
  
  Join Swarm: `token=$(docker -H [[KATACODA_HOST]]:2345 swarm join-token -q worker) && docker swarm join [[KATACODA_HOST]]:2377 --token $token`{{execute HOST2}} 
 
+ Lost nodes: `docker node ls`{{execute HOST1}}
+
 [Access port 8080](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/)
 
 
