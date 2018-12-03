@@ -34,7 +34,7 @@
     "dashboards": [{"name": ":80", "port": 80}, {"name": ":8080", "port": 8080}],
     "hideintro": false,
     "hidefinish": true,
-    "uilayout": "editor-terminal",
+    "uilayout": "terminal-terminal",
     "uisettings": "yaml",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n\u001b[m\r\n"
   },
