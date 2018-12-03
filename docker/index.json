@@ -24,6 +24,7 @@
     }
   },
   "files": [
+    "/home/scrapbook/",
     "Makefile",
     "docker-compose.yml"
   ],
