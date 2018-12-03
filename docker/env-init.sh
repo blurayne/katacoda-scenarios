@@ -1,1 +1,1 @@
-echo foo >> bar
+echo foo >> /home/scrapbook/tutorial/bar
