@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 10",
+  "title": "Docker Playground 11",
   "description": "Playground",
   "icon": "fa-docker",
   "difficulty": "beginner",
@@ -12,11 +12,11 @@
     "assets": {
       "client": [{
           "file": "examples.tar.gz",
-          "target": "/home/scrapbook/tutorial/"
+          "target": "/home/scrapbook/"
       }],
       "host01": [{
         "file": "examples.tar.gz",
-        "target": "/home/scrapbook/tutorial/"
+        "target": "/home/scrapbook/"
       }]
     },
     "steps": [{
