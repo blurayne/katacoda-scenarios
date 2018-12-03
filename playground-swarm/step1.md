@@ -25,8 +25,8 @@ Use ```make```{{execute}} followed by ```<tab>``` to call targets.
 
  List nodes
 
-Host 1 ```[[HOST1_IP]]```
-Host 2 ```[[HOST2_IP]]```
+Host 1 [`[[HOST1_IP]`]([[HOST1_IP]])
+Host 2 [`[[HOST2_IP]]`]([[HOST2_IP]])
  
  `docker node ls`{{execute HOST1}}
 
