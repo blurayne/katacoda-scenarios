@@ -18,6 +18,9 @@
         "file": "Makefile",
         "target": "~/"
       }, {
+        "file": "Dockerfile",
+        "target": "~/"
+      }, {
         "file": "docker-compose.yml",
         "target": "~/"
       }]
@@ -25,8 +28,8 @@
   },
   "files": [
     "Makefile",
-    "docker-compose.yml",
-    "Dockerfile"
+    "Dockerfile",
+    "docker-compose.yml"
   ],
   "environment": {
     "dashboard":"Dashboard",
