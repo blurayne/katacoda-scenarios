@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 17",
+  "title": "Docker Playground 18",
   "description": "Playground",
   "icon": "fa-docker",
   "difficulty": "beginner",
@@ -7,8 +7,6 @@
     "intro": {
     },
     "steps": [{
-      "title": "Feel for to play around!",
-      "text": "step1.md",
       "courseData": "env-init.sh",
       "code": "step1-init.sh"
     }],
@@ -34,6 +32,6 @@
     "uimessage1": "Nothing"
   },
    "backend": {
-      "imageid": "docker-node"
+      "imageid": "docker"
   }
 }
