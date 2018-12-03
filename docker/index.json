@@ -14,7 +14,10 @@
     }],
     "assets": {
       "client": [{
-        "file": "foo.txt",
+        "file": "Makefile",
+        "target": "~/"
+      }, {
+        "file": "docker-compose.yml",
         "target": "~/"
       }]
     }
