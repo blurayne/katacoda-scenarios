@@ -24,6 +24,10 @@ Use ```make```{{execute}} followed by ```<tab>``` to call targets.
 
  List nodes
  
+ [[HOST_SUBDOMAIN]]-8500-[[KATACODA_HOST]]
+ [[HOST1_SUBDOMAIN]]-8500-[[KATACODA_HOST1]]
+ [[HOST2_SUBDOMAIN]]-8500-[[KATACODA_HOST2]]
+
  `docker node ls`{{execute HOST1}}
 
 [Access port 8080](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/)
