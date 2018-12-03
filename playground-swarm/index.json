@@ -1,0 +1,45 @@
+{
+  "title": "Docker Swarm Playground",
+  "description": "",
+  "icon": "fa-docker",
+  "difficulty": "beginner",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "code": "env-init.sh"
+    },
+    "steps": [{
+      "title": "Containerized Playground",
+      "text": "step1.md"
+    }],
+    "assets": {
+      "client": [{
+        "file": "env-init.sh",
+        "target": "/home/scrapbook/"
+      }, {
+        "file": "Makefile",
+        "target": "~/"
+      }, {
+        "file": "Dockerfile",
+        "target": "~/"
+      }, {
+        "file": "docker-compose.yml",
+        "target": "~/"
+      }]
+    }
+  },
+  "environment": {
+    "dashboard":"Dashboard",
+    "showdashboard": false,
+    "dashboards": [{"name": ":80", "port": 80}, {"name": ":8080", "port": 8080}],
+    "hideintro": false,
+    "hidefinish": true,
+    "uilayout": "terminal-terminal",
+    "uisettings": "yaml",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n\u001b[m\r\n"
+  },
+   "backend": {
+      "port": 8080,
+      "imageid": "swarm"
+  }
+}
