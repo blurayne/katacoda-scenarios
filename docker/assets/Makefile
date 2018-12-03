@@ -6,13 +6,13 @@ build:
 	docker build -t $(IMAGE) .
 	# docker-compose build
 
-# Run the image
+# Run the image and remove
 run-attached:
 	docker run -it --rm --name $(CONTAINER) $(IMAGE) 
 
-# Run deamonized
+# Run deamonized and remove
 run-detached:
-	docker run -it --rm --name $(CONTAINER) $(IMAGE) 
+	docker run -d --rm --name $(CONTAINER) $(IMAGE) 
 
 # Execute shell with new container from image
 shell-image:
