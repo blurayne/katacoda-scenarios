@@ -1,6 +1,6 @@
 {
-  "title": "Docker Playground 21",
-  "description": "Playground",
+  "title": "Playground",
+  "description": "",
   "icon": "fa-docker",
   "difficulty": "beginner",
   "details": {
@@ -34,6 +34,7 @@
     "uimessage1": "Nothing"
   },
    "backend": {
-      "imageid": "docker"
+      "port": 8080,
+      "imageid": "kubernetes"
   }
 }
