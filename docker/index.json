@@ -1,5 +1,5 @@
 {
-  "title": "Playground",
+  "title": "Playground 1",
   "description": "",
   "icon": "fa-docker",
   "difficulty": "beginner",
@@ -31,10 +31,10 @@
     "hidefinish": true,
     "uilayout": "editor-terminal",
     "uisettings": "yaml",
-    "uimessage1": "Nothing"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n\u001b[m\r\n"
   },
    "backend": {
       "port": 8080,
-      "imageid": "docker"
+      "imageid": "swarm"
   }
 }
