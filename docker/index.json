@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 6",
+  "title": "Docker Playground 7",
   "description": "Playground",
   "authenticated": false,
   "icon": "fa-docker",
@@ -21,7 +21,7 @@
       "title": "Feel for to play around!",
       "text": "step1.md",
       "code": "step1-init.sh",
-      "courseData": "step1-init.sh"
+      "courseData": "env-init.sh"
     }]
   },
   "environment": {
