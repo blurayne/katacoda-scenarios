@@ -16,7 +16,7 @@ Use ```make```{{execute}} followed by ```<tab>``` to call targets.
 
  Init Swarm: `docker swarm init`{{execute HOST1}}
  
- Join Swarm: `token=$(docker -H [[KATACODA_HOST]]:2345 swarm join-token -q worker) && docker swarm join [[KATACODA_HOST]]:2377 --token $token`{{execute HOST2}} 
+ Join Swarm: `token=$(docker -H  172.17.0.22:2345 swarm join-token -q worker) && docker swarm join  172.17.0.22:2377 --token $token`{{execute HOST2}} 
 
  Lost nodes: `docker node ls`{{execute HOST1}}
 
