@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 18",
+  "title": "Docker Playground 19",
   "description": "Playground",
   "icon": "fa-docker",
   "difficulty": "beginner",
@@ -15,9 +15,6 @@
     "assets": {
       "client": [{
         "file": "foo.txt",
-        "target": "~/"
-      }, {
-        "file": "xxx",
         "target": "~/"
       }]
     }
