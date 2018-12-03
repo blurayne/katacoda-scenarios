@@ -1,7 +1,6 @@
 {
-  "title": "Docker Playground 8",
+  "title": "Docker Playground 9",
   "description": "Playground",
-  "authenticated": false,
   "icon": "fa-docker",
   "details": {
     "intro": {
@@ -9,11 +8,11 @@
     },
     "assets": {
       "client": [{
-          "file": "*",
+          "file": "examples.tar.gz",
           "target": "/home/scrapbook/tutorial/"
       }],
       "host01": [{
-        "file": "*",
+        "file": "examples.tar.gz",
         "target": "/home/scrapbook/tutorial/"
       }]
     },
@@ -25,7 +24,7 @@
     }]
   },
   "environment": {
-    "hideintro": true,
+    "hideintro": false,
     "hidefinish": true,
     "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
