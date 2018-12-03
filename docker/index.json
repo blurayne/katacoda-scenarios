@@ -14,12 +14,9 @@
     }],
     "assets": {
       "client": [{
-          "file": "examples.tar.gz",
-          "target": "/home/scrapbook/"
-      }, {
-        "file": "foo",
+        "file": "foo.txt",
         "target": "~/"
-    }]
+      }]
     }
   },
   "files": [
