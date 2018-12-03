@@ -32,7 +32,7 @@
     "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
     "hideintro": false,
     "hidefinish": true,
-    "uilayout": "terminal",
+    "uilayout": "editor-terminal",
     "uisettings": "yaml",
     "uimessage1": "Nothing"
   },
