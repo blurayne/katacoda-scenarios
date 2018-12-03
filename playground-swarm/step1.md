@@ -14,24 +14,21 @@ Use ```make```{{execute}} followed by ```<tab>``` to call targets.
 
 ## Swarm
 
- Init Swarm
+### Init Swarm
  
  `docker swarm init`{{execute HOST1}}
  
- Join Swarm
+### Join Swarm
  
  `token=$(docker -H  [[HOST1_IP]]:2345 swarm join-token -q worker) && docker swarm join  [[HOST1_IP]]:2377 --token $token`{{execute HOST2}} 
 
 
- List nodes
+### List nodes
 
-`docker node ls`{{execute HOST1}}
-
+- `docker node ls`{{execute HOST1}}
 - Host 1 [`[[HOST1_IP]]`]([[HOST1_IP]])
-
 - Host 2 [`[[HOST2_IP]]`]([[HOST2_IP]])
- 
-- [Access port 8080](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/)
+- [Ledaer:8080](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/)
 
 
 ## Note
