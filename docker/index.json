@@ -1,5 +1,5 @@
 {
-  "title": "Docker Playground 3",
+  "title": "Docker Playground",
   "description": "",
   "icon": "fa-docker",
   "difficulty": "beginner",
@@ -9,7 +9,7 @@
       "code": "env-init.sh"
     },
     "steps": [{
-      "title": "Feel for to play around!",
+      "title": "Containerized Playground",
       "text": "step1.md"
     }],
     "assets": {
