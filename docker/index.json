@@ -5,11 +5,11 @@
   "difficulty": "beginner",
   "details": {
     "intro": {
-      "courseData": "env-init.sh"
     },
     "steps": [{
       "title": "Feel for to play around!",
       "text": "step1.md",
+      "courseData": "env-init.sh",
       "code": "step1-init.sh"
     }],
     "assets": {
