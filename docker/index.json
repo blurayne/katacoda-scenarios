@@ -2,9 +2,11 @@
   "title": "Docker Playground 9",
   "description": "Playground",
   "icon": "fa-docker",
+  "difficulty": "beginner",
   "details": {
     "intro": {
       "courseData": "env-init.sh",
+      "credits": "",
       "code": "step1-init.sh"
     },
     "assets": {
@@ -25,11 +27,12 @@
     }]
   },
   "environment": {
+    "showdashboard": false,
     "hideintro": true,
     "hidefinish": true,
     "uilayout": "editor-terminal"
   },
    "backend": {
-      "imageid": "kubernetes"
+      "imageid": "docker-node"
   }
 }
